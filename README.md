@@ -1,6 +1,6 @@
 # **Anime Recommendation System**
 
-The goal of this project is to build a content based anime recommendation system, which can compare the plot of anime and return those that are most similar to the item on which suggestions are requested.\
+The goal of this project is to build a content based anime recommendation system, which can compare the plot of anime and return those that are most similar to the item on which suggestions are requested.
 
 The work done is divided into the following steps:
  * Data Acquisition
