@@ -10,7 +10,7 @@ The work done is divided into the following steps:
  * Construction of a similarity matrix between the synopsis using cosine similarity
  * Deployment of the recommendation system using *Streamlit*
 
-The recommendation system can be found at the following link: [recommendation system](https://anime-recommendation-system-q63xpuxhspdr7oxkpqu7ah.streamlit.app/)
+The recommendation system can be found at the following link: [recommendation system](https://anime-recommendation-system-q63xpuxhspdr7oxkpqu7ah.streamlit.app/).
 
 This repo is structured in the following way:
 
