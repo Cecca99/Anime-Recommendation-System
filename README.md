@@ -3,10 +3,11 @@
 The goal of this project is to build a content based anime recommendation system, which can compare the plot of anime and return those that are most similar to the item on which suggestions are requested.
 
 The work done is divided into the following steps:
- * Data Acquisition
+ * Data acquisition, cleaning and filtering
  * Exploratory Data Analysis
  * Development of a classification model that can predict the genre of anime that does not have it
  * Summarization of the synopsis in order to make the recommendation system more readable
+ * Construction of a similarity matrix between the synopsis using cosine similarity
  * Deployment of the recommendation system using *Streamlit*
 
 The recommendation system can be found at the following link: [recommendation system](https://anime-recommendation-system-q63xpuxhspdr7oxkpqu7ah.streamlit.app/)
