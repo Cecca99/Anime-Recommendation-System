@@ -1,15 +1,17 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+from sklearn.metrics.pairwise import cosine_similarity
 import pickle
 from app_functions import get_similar_anime
 
 
-path = '/content/drive/MyDrive/Text Mining Project/'
+
 with open('data/anime_summarized.pkl', 'rb') as f:
     anime_df = pickle.load(f)
 
-similarity_matrix = np.load('models/similarity_matrix.npy')
+embeddings = np.load('data/document_embeddings.npy')
+similarity_matrix = cosine_similarity(embeddings, embeddings)
 
 st.header('Anime Recommendation System', divider='red')
 st.write("Choose the baseline anime on which you want recommendations.")
